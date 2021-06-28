@@ -21,6 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
        duration:1
    });
 
+    gsap.to(".copy", {
+      opacity:1,
+      duration:1
+    });
+
    gsap.to(".close", {
     x: 300,
     y: 0,
@@ -28,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ease: "power2"
   });
  
-})
+   })
 
   close.addEventListener('click', () => {
     // animate here when close the menu
