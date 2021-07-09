@@ -61,4 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ease: "power2"
     });
   });
+
+
+  //* i'm sorry i didn't manage to go further than this *//
 })
