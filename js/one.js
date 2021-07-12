@@ -23,11 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     gsap.to(".copy", {
       opacity:1,
-      duration:1
+      duration:1,
+      x: 0,
     });
 
    gsap.to(".close", {
-    x: 300,
+    x: 0,
     y: 0,
     duration: 1,
     ease: "power2"
